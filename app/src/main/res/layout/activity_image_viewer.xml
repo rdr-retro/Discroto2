@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <WebView
+        android:id="@+id/image_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Save Button Overlay -->
+    <ImageView
+        android:id="@+id/viewer_save"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:background="@android:drawable/btn_default"
+        android:src="@android:drawable/ic_menu_save"
+        android:visibility="visible" />
+
+</RelativeLayout>
