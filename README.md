@@ -1,4 +1,4 @@
-# Droidcord
+# Discroto
 A Discord client for old Android <4.x devices. Uses proxy servers for the [HTTP](https://github.com/gtrxAC/discord-j2me/blob/main/proxy) and [gateway](https://github.com/gtrxAC/discord-j2me-server) connection. Currently work-in-progress.
 
 ## How to build
@@ -28,7 +28,3 @@ A Discord client for old Android <4.x devices. Uses proxy servers for the [HTTP]
 * Ping indicators
 * Reactions and emojis
 * Settings
-
-## Credits
-- [@gtrxac](https://github.com/gtrxAC) for his [Discord J2ME](https://github.com/gtrxAC/discord-j2me) project where most of the code came from.
-- [@shinovon](https://github.com/shinovon) for their [JSON library](https://github.com/shinovon/NNJSON) (yes I know I can just use any other JSON library that works with Java 7 or whatever the hell Android 1.x uses but I'm too lazy so screw it)
